@@ -7,34 +7,317 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TabuleiroController">
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="666.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TabuleiroController">
   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
   </columnConstraints>
   <rowConstraints>
     <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
     <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
   </rowConstraints>
    <children>
-      <HBox fx:id="hbox01" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: black;" GridPane.columnIndex="1" />
-      <HBox fx:id="hbox10" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: black;" GridPane.rowIndex="1">
+      <HBox fx:id="hbox00" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;">
          <children>
-            <ImageView fx:id="imageView2" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imageView1" fitHeight="58.0" fitWidth="48.0">
                <image>
-                  <Image url="@../resources/dama.gif" />
-               </image>
-            </ImageView>
-         </children></HBox>
-      <HBox fx:id="hbox00" alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
-         <children>
-            <ImageView fx:id="imageView1" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../resources/cavalo.jpg" />
+                  <Image url="@../resources/TorrePreto.png" />
                </image>
             </ImageView>
          </children>
       </HBox>
-      <HBox fx:id="hbox11" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <HBox fx:id="hbox01" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="1">
+         <children>
+            <ImageView fx:id="imageView2" fitHeight="69.0" fitWidth="72.0">
+               <image>
+                  <Image url="@../resources/CavaloPreto.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox03" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="3">
+         <children>
+            <ImageView fx:id="imageView4" fitHeight="69.0" fitWidth="72.0">
+               <image>
+                  <Image url="@../resources/ReiPreto.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox04" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="4">
+         <children>
+            <ImageView fx:id="imageView5" fitHeight="66.0" fitWidth="64.0">
+               <image>
+                  <Image url="@../resources/RainhaPreto.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox05" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="5">
+         <children>
+            <ImageView fx:id="imageView6" fitHeight="68.0" fitWidth="73.0">
+               <image>
+                  <Image url="@../resources/BispoPreto.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox06" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="6">
+         <children>
+            <ImageView fx:id="imageView7" fitHeight="69.0" fitWidth="72.0">
+               <image>
+                  <Image url="@../resources/CavaloPreto.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox07" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="7">
+         <children>
+            <ImageView fx:id="imageView8" fitHeight="58.0" fitWidth="48.0">
+               <image>
+                  <Image url="@../resources/TorrePreto.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox10" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.rowIndex="1">
+         <children>
+            <ImageView fx:id="imageView9" fitHeight="62.0" fitWidth="53.0">
+               <image>
+                  <Image url="@../resources/PeãoPreto.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox11" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <children>
+            <ImageView fx:id="imageView10" fitHeight="62.0" fitWidth="53.0">
+               <image>
+                  <Image url="@../resources/PeãoPreto.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox12" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <children>
+            <ImageView fx:id="imageView11" fitHeight="62.0" fitWidth="53.0">
+               <image>
+                  <Image url="@../resources/PeãoPreto.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox14" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="4" GridPane.rowIndex="1">
+         <children>
+            <ImageView fx:id="imageView13" fitHeight="62.0" fitWidth="53.0">
+               <image>
+                  <Image url="@../resources/PeãoPreto.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox16" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="6" GridPane.rowIndex="1">
+         <children>
+            <ImageView fx:id="imageView15" fitHeight="62.0" fitWidth="53.0">
+               <image>
+                  <Image url="@../resources/PeãoPreto.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox13" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="3" GridPane.rowIndex="1">
+         <children>
+            <ImageView fx:id="imageView12" fitHeight="62.0" fitWidth="53.0">
+               <image>
+                  <Image url="@../resources/PeãoPreto.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox15" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="5" GridPane.rowIndex="1">
+         <children>
+            <ImageView fx:id="imageView14" fitHeight="62.0" fitWidth="53.0">
+               <image>
+                  <Image url="@../resources/PeãoPreto.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <HBox fx:id="hbox17" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="7" GridPane.rowIndex="1">
+         <children>
+            <ImageView fx:id="imageView16" fitHeight="62.0" fitWidth="53.0">
+               <image>
+                  <Image url="@../resources/PeãoPreto.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox20" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.rowIndex="2" />
+      <HBox fx:id="hbox21" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <HBox fx:id="hbox23" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+      <HBox fx:id="hbox25" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+      <HBox fx:id="hbox27" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+      <HBox fx:id="hbox30" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.rowIndex="3" />
+      <HBox fx:id="hbox22" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <HBox fx:id="hbox24" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+      <HBox fx:id="hbox26" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+      <HBox fx:id="hbox31" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <HBox fx:id="hbox36" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+      <HBox fx:id="hbox34" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+      <HBox fx:id="hbox32" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <HBox fx:id="hbox35" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+      <HBox fx:id="hbox33" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+      <HBox fx:id="hbox37" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+      <HBox fx:id="hbox41" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <HBox fx:id="hbox40" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.rowIndex="4" />
+      <HBox fx:id="hbox42" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+      <HBox fx:id="hbox43" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+      <HBox fx:id="hbox44" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+      <HBox fx:id="hbox45" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+      <HBox fx:id="hbox46" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+      <HBox fx:id="hbox47" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+      <HBox fx:id="hbox50" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.rowIndex="5" />
+      <HBox fx:id="hbox51" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+      <HBox fx:id="hbox52" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+      <HBox fx:id="hbox53" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+      <HBox fx:id="hbox63" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="3" GridPane.rowIndex="6">
+         <children>
+            <ImageView fx:id="imageView20" fitHeight="63.0" fitWidth="61.0">
+               <image>
+                  <Image url="@../resources/PeãoBranco.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox61" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="1" GridPane.rowIndex="6">
+         <children>
+            <ImageView fx:id="imageView18" fitHeight="63.0" fitWidth="61.0">
+               <image>
+                  <Image url="@../resources/PeãoBranco.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox56" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+      <HBox fx:id="hbox54" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+      <HBox fx:id="hbox55" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+      <HBox fx:id="hbox57" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+      <HBox fx:id="hbox62" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="2" GridPane.rowIndex="6">
+         <children>
+            <ImageView fx:id="imageView19" fitHeight="63.0" fitWidth="61.0">
+               <image>
+                  <Image url="@../resources/PeãoBranco.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox60" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.rowIndex="6">
+         <children>
+            <ImageView fx:id="imageView17" fitHeight="63.0" fitWidth="61.0">
+               <image>
+                  <Image url="@../resources/PeãoBranco.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox64" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="4" GridPane.rowIndex="6">
+         <children>
+            <ImageView fx:id="imageView21" fitHeight="63.0" fitWidth="61.0">
+               <image>
+                  <Image url="@../resources/PeãoBranco.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox67" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="7" GridPane.rowIndex="6">
+         <children>
+            <ImageView fx:id="imageView24" fitHeight="63.0" fitWidth="61.0">
+               <image>
+                  <Image url="@../resources/PeãoBranco.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox65" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="5" GridPane.rowIndex="6">
+         <children>
+            <ImageView fx:id="imageView22" fitHeight="63.0" fitWidth="61.0">
+               <image>
+                  <Image url="@../resources/PeãoBranco.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox71" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="1" GridPane.rowIndex="7">
+         <children>
+            <ImageView fx:id="imageView26" fitHeight="70.0" fitWidth="72.0">
+               <image>
+                  <Image url="@../resources/CavaloBranco.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox66" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="6" GridPane.rowIndex="6">
+         <children>
+            <ImageView fx:id="imageView23" fitHeight="63.0" fitWidth="61.0">
+               <image>
+                  <Image url="@../resources/PeãoBranco.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox72" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="2" GridPane.rowIndex="7">
+         <children>
+            <ImageView fx:id="imageView27" fitHeight="73.0" fitWidth="78.0">
+               <image>
+                  <Image url="@../resources/BispoBranco.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox70" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.rowIndex="7">
+         <children>
+            <ImageView fx:id="imageView25" fitHeight="66.0" fitWidth="57.0">
+               <image>
+                  <Image url="@../resources/TorreBranco.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox76" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="6" GridPane.rowIndex="7">
+         <children>
+            <ImageView fx:id="imageView31" fitHeight="70.0" fitWidth="72.0">
+               <image>
+                  <Image url="@../resources/CavaloBranco.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox74" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #956F3B;" GridPane.columnIndex="4" GridPane.rowIndex="7">
+         <children>
+            <ImageView fx:id="imageView29" fitHeight="70.0" fitWidth="77.0">
+               <image>
+                  <Image url="@../resources/RainhaBranco.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox77" alignment="CENTER" prefHeight="63.0" prefWidth="82.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="7" GridPane.rowIndex="7">
+         <children>
+            <ImageView fx:id="imageView32" fitHeight="66.0" fitWidth="57.0">
+               <image>
+                  <Image url="@../resources/TorreBranco.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox73" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="3" GridPane.rowIndex="7">
+         <children>
+            <ImageView fx:id="imageView28" fitHeight="66.0" fitWidth="78.0">
+               <image>
+                  <Image url="@../resources/ReiBranco.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox75" alignment="CENTER" prefHeight="63.0" prefWidth="76.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="5" GridPane.rowIndex="7">
+         <children>
+            <ImageView fx:id="imageView30" fitHeight="73.0" fitWidth="78.0">
+               <image>
+                  <Image url="@../resources/BispoBranco.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+      <HBox fx:id="hbox02" alignment="CENTER" prefHeight="63.0" prefWidth="0.0" style="-fx-background-color: #FDEFC2;" GridPane.columnIndex="2">
+         <children>
+            <ImageView fx:id="imageView3" fitHeight="68.0" fitWidth="73.0">
+               <image>
+                  <Image url="@../resources/BispoPreto.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
    </children>
 </GridPane>
